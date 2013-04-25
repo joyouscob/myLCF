@@ -5,8 +5,7 @@
  * Displays all of the <head> section and everything up to end of navigation>
  *
  * @package WordPress
- * @subpackage smpl
- * @since smpl 0.1
+
  */
 ?>
 
@@ -18,17 +17,9 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <!-- Le styles -->
-    <link href="wp-content/themes/mylcf/css/mylcf.css" rel="stylesheet">
-    <style type="text/css">
-      body {
-        padding-top: 60px;
-        padding-bottom: 40px;
-      }
-    </style>
-        
-    <!-- Import additional syles from Flat UI -->
-    <link href="wp-content/themes/mylcf/css/flat-ui.css" rel="stylesheet">
+    <!-- Link default stylesheet -->
+    <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
+
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>

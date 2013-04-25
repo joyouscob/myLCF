@@ -77,6 +77,3 @@
     	fixHeight();
     	})		
     </script>
-     	  
-  </body>
-</html>
