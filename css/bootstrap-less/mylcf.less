@@ -1,0 +1,109 @@
+/*
+Theme Name: myLCF
+Theme URI: http://www.perspectivedesign.co.uk
+Author: James Cartwright
+Author URI: http://www.perspectivedesign.co.uk
+Description: A semantic HTML/CSS theme for WordPress based on Twitter Bootstrap and Flat UI
+Version: .01
+=======
+License: GNU General Public License
+License URI: license.txt
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/********************************************************
+
+This site uses a mixture of LESS and SASS styles. The basic styles are based on LESS for botstrap, but these are over-ridden by the flat-ui styles which are compiled from SASS
+
+////////   IMPORTANT!  Make custom edits/changes in the less/bswp-custom.less file
+////////   to safely retain the ability to update the less files with future
+////////   versions of Bootstrap
+
+-------------------------------------------------- */
+
+
+// Import standard bootstrap CSS files
+
+// Core variables and mixins
+@import "variables.less"; // Modify this for custom colors, font-sizes, etc
+@import "mixins.less";
+
+// CSS Reset
+@import "reset.less";
+
+// Grid system and page structure
+@import "scaffolding.less";
+@import "grid.less";
+@import "layouts.less";
+
+// Base CSS
+@import "type.less";
+@import "code.less";
+@import "forms.less";
+@import "tables.less";
+
+// Components: common
+@import "sprites.less";
+@import "dropdowns.less";
+@import "wells.less";
+@import "component-animations.less";
+@import "close.less";
+
+// Components: Buttons & Alerts
+@import "buttons.less";
+@import "button-groups.less";
+@import "alerts.less"; // Note: alerts share common CSS with buttons and thus have styles in buttons.less
+
+// Components: Nav
+@import "navs.less";
+@import "navbar.less";
+@import "breadcrumbs.less";
+@import "pagination.less";
+@import "pager.less";
+
+// Components: Popovers
+@import "modals.less";
+@import "tooltip.less";
+@import "popovers.less";
+
+// Components: Misc
+@import "thumbnails.less";
+@import "media.less";
+@import "labels-badges.less";
+@import "progress-bars.less";
+@import "accordion.less";
+@import "carousel.less";
+@import "hero-unit.less";
+
+// Utility classes
+@import "utilities.less"; // Has to be last to override when necessary
+
+
+// Import bootstrap responsive files
+
+// RESPONSIVE CLASSES
+// ------------------
+
+@import "responsive-utilities.less";
+
+
+// MEDIA QUERIES
+// ------------------
+
+// Large desktops
+@import "responsive-1200px-min.less";
+
+// Tablets to regular desktops
+@import "responsive-768px-979px.less";
+
+// Phones to portrait tablets and narrow desktops
+@import "responsive-767px-max.less";
+
+
+// RESPONSIVE NAVBAR
+// ------------------
+
+// From 979px and below, show a button to toggle navbar contents
+@import "responsive-navbar.less";
