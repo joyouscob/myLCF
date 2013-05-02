@@ -6,6 +6,15 @@
   &:active,
   &.active
     background-color: scale-color($color, $lightness: -15%)
+    
+=button-states2($color)
+  background-color: $color
+  &:hover,
+  &:focus
+    background-color: $wisteria
+  &:active,
+  &.active
+    background-color: $wisteria
 
 // Buttons -----------------------
 .btn
@@ -20,13 +29,13 @@
 
   &:hover,
   &:focus
-    background-color: scale-color($base, $lightness: 20%)
+    background-color: $wisteria
     color: $inverse
     +transition(.25s)
 
   &:active,
   &.active
-    background-color: scale-color($base, $lightness: -15%)
+    background-color: $wisteria
     color: rgba($inverse, .75)
     +box-shadow(none)
 
@@ -42,7 +51,7 @@
 
   // Colors -----------------------
   &.btn-primary
-    +button-states($firm)
+    +button-states2($firm)
 
   &.btn-info
     +button-states($info)
