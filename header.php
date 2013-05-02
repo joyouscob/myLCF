@@ -86,18 +86,15 @@
 						        <span class="icon-bar"></span>
 						        <span class="icon-bar"></span>
 						      </a>
-						    <div class="nav-collapse collapse">
-								<ul class="nav">
-									<li class="active"><a href="#">Home</a></li>
-									<li><a href="#">Services</a></li>
-									<li><a href="#">Route 96</a></li>
-									<li><a href="#">Connect</a></li>
-									<li><a href="#">News</a></li>
-									<li><a href="#">Contact</a></li>
-									<li><a href="#">Beliefs</a></li>
-									<li><a href="#">Children</a></li>
-								</ul>
-						    </div>
+							    <?php
+						           /** Loading WordPress Custom Menu  **/
+						           wp_nav_menu( array(
+						              'menu'            => 'primary_navigation',
+						              'container_class' => 'nav-collapse',
+						              'menu_class'      => 'nav',
+						              'fallback_cb'     => '',
+						              'menu_id' => 'main-menu',
+						          ) ); ?>						    
 						</div>
 					</div>
 				</div>
