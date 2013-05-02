@@ -12,7 +12,31 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Louth Christian Fellowship</title>
+    <title><?php
+	// Detect Yoast SEO Plugin
+	if (defined('WPSEO_VERSION')) {
+		wp_title('');
+	} else {
+	/*
+	 * Print the <title> tag based on what is being viewed.
+	 */
+	global $page, $paged;
+
+	wp_title( '|', true, 'right' );
+
+	// Add the blog name.
+	bloginfo( 'name' );
+
+	// Add the blog description for the home/front page.
+	$site_description = get_bloginfo( 'description', 'display' );
+	if ( $site_description && ( is_home() || is_front_page() ) )
+		echo " | $site_description";
+
+	// Add a page number if necessary:
+	if ( $paged >= 2 || $page >= 2 )
+		echo ' | ' . sprintf( __( 'Page %s', 'smpl' ), max( $paged, $page ) );
+	}
+	?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
