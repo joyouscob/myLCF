@@ -555,6 +555,8 @@ h6 {
       -webkit-transform: scale(1, 1);
       visibility: visible;
       display: block\9; }
+  .navbar .nav li:first-child {
+    margin-left: 20px; }
   .navbar .nav ul {
     border-radius: 4px;
     left: 15px;
@@ -1859,9 +1861,10 @@ footer {
 .footer-brand {
   display: block;
   margin-bottom: 26px;
-  width: 220px; }
+  margin-top: 26px; }
   .footer-brand img {
-    width: 216px; }
+    width: 50px;
+    margin-right: 10px; }
 
 .footer-banner {
   background-color: #9b59b6;
@@ -2414,6 +2417,43 @@ body.vjs-full-window {
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 2) {
   .login {
     background-image: url("../images/login/imac-2x.png"); } }
+.social ul {
+  margin: 0;
+  padding: 0;
+  float: right; }
+
+.social ul li {
+  display: inline; }
+
+.social ul li a {
+  float: left;
+  padding-right: 20px; }
+
+.social ul li:last-child a {
+  padding-right: 0; }
+
+.large-tile {
+  border-radius: 6px;
+  padding: inherit;
+  position: relative;
+  text-align: center;
+  color: white; }
+
+.large-tile-header {
+  background: #8e44ad;
+  position: relative;
+  top: -10px;
+  border-radius: 6px 6px 0 0; }
+
+.feature-icon {
+  position: relative;
+  right: 15px;
+  top: 2px;
+  width: 25px; }
+
+.feature-inner {
+  padding: 10px; }
+
 .ptn, .pvn, .pan {
   padding-top: 0; }
 

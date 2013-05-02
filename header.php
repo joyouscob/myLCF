@@ -20,7 +20,6 @@
     <!-- Link default stylesheet -->
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
 
-
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="js/html5shiv.js"></script>

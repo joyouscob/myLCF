@@ -27,8 +27,8 @@
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/jquery-1.8.2.min.js"></script>
-    <script src="js/bootstrap.js"></script>  
+    <script src="<?php bloginfo('template_directory'); ?>/js/jquery-1.8.2.min.js"></script>
+    <script src="<?php bloginfo('template_directory'); ?>/js/bootstrap.min.js"></script>  
        
     <script>
 	function fixHeight() {

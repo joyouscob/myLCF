@@ -37,19 +37,19 @@ get_header();
 
 		<!-- Row of feature units -->
 	      <div class="row demo-row">
-	        <div class="span4 large-tile palette-amethyst height-fix">
+	        <div class="span4 large-tile palette-amethyst">
 	          <div class="large-tile-header"><h2><span class="fui-bubble-24 feature-icon"></span>Latest Tweets</h2></div>
 	          	<div class="feature-inner">
 		          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
 	          	</div>
 	        </div>
-	        <div class="span4 large-tile palette-amethyst height-fix">
+	        <div class="span4 large-tile palette-amethyst">
 	          <div class="large-tile-header"><h2><span class="fui-calendar-24 feature-icon"></span>This month</h2></div>
 	          	<div class="feature-inner">
 	          		<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
 	          	</div>
 	       </div>
-	        <div class="span4 large-tile palette-amethyst height-fix">
+	        <div class="span4 large-tile palette-amethyst">
 	          <div class="large-tile-header"><h2><span class="fui-volume-24 feature-icon"></span>Podcast</h2></div>
 	          	<div class="feature-inner">
 		          	<p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
