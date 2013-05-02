@@ -1731,7 +1731,7 @@ textarea,
   position: relative;
   text-align: center; }
   .tile.tile-hot:before {
-    background: url("../images/tile/ribbon.png") 0 0 no-repeat;
+    background: url("../img/tile/ribbon.png") 0 0 no-repeat;
     background-size: 82px 82px;
     content: "";
     height: 82px;

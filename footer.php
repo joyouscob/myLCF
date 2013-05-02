@@ -4,7 +4,7 @@
 		  			<div class="span7">
 		  				<h3 class="footer-title">This is the footer title</h3>
 		  				<p class="footer-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-		  				<a class="footer-brand" href="http://www.perspectivedesign.co.uk" target=_blank><img src="images/assets/logo-fade.png">Copyright 2013 Perspective Design</a>
+		  				<a class="footer-brand" href="http://www.perspectivedesign.co.uk" target=_blank><img src="<?php bloginfo('template_directory'); ?>/img/assets/logo-fade.png">Copyright 2013 Perspective Design</a>
 		  			</div>
 		  			<div class="span5">
 		  				<div class="footer-banner">

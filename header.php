@@ -38,16 +38,16 @@
 	<div class="container palette-white">
 		<div class="row demo-row">
 			<div class="span6">
-				<div class="lcf-logo"><img src="images/assets/logo.png"></div>
+				<div class="lcf-logo"><img src="<?php bloginfo('template_directory'); ?>/img/assets/logo.png"></div>
 			</div>
 			<div class="span6">
 				<div class="social hidden-phone">
 					<ul>
-					<li><a href="#"><img src="images/assets/twitter.png"></a></li>
-					<li><a href="#"><img src="images/assets/map.png"></a></li>
-					<li><a href="#"><img src="images/assets/podcast.png"></a></li>
-					<li><a href="#"><img src="images/assets/instagram.png"></a></li>
-					<li><a href="#"><img src="images/assets/facebook.png"></a></li>
+					<li><a href="#"><img src="<?php bloginfo('template_directory'); ?>/img/assets/twitter.png"></a></li>
+					<li><a href="#"><img src="<?php bloginfo('template_directory'); ?>/img/assets/map.png"></a></li>
+					<li><a href="#"><img src="<?php bloginfo('template_directory'); ?>/img/assets/podcast.png"></a></li>
+					<li><a href="#"><img src="<?php bloginfo('template_directory'); ?>/img/assets/instagram.png"></a></li>
+					<li><a href="#"><img src="<?php bloginfo('template_directory'); ?>/img/assets/facebook.png"></a></li>
 					</ul>
 				</div>
 			</div>

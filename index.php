@@ -25,9 +25,9 @@ get_header();
 		  </ol>
 		  <!-- Carousel items -->
 		  <div class="carousel-inner">
-		    <div class="active item"><img src="images/blue.png">
+		    <div class="active item"><img src="<?php bloginfo('template_directory'); ?>/img/blue.png">
 		    </div>
-		    <div class="item"><img src="images/orange.png">
+		    <div class="item"><img src="<?php bloginfo('template_directory'); ?>/img/orange.png">
 		    </div>
 		  </div>
 		  <!-- Carousel nav -->
@@ -61,7 +61,7 @@ get_header();
 	      <div class="row demo-row">
 	        <div class="span3">
 	          <div class="tile">
-	            <img class="tile-image big-illustration" alt="" src="images/assets/mylcf-feature.png" />
+	            <img class="tile-image big-illustration" alt="" src="<?php bloginfo('template_directory'); ?>/img/assets/mylcf-feature.png" />
 	            <h3 class="tile-title">Get involved</h3>
 	            <p>Become a partner of LCF and get involved.</p>
 	            <a class="btn btn-primary btn-large btn-block" href="#">Find out more</a>
@@ -70,7 +70,7 @@ get_header();
 
 		    <div class="span3">
 	          <div class="tile tile-hot">
-	            <img class="tile-image" alt="" src="images/assets/twitter-feature.png" />
+	            <img class="tile-image" alt="" src="<?php bloginfo('template_directory'); ?>/img/assets/twitter-feature.png" />
 	            <h3 class="tile-title">Catch up</h3>
 	            <p>Follow us on twitter to keep up with what's happening.</p>
 	            <a class="btn btn-primary btn-large btn-block" href="#">Follow us</a>
@@ -79,7 +79,7 @@ get_header();
 	
 	        <div class="span3">
 	          <div class="tile">
-	            <img class="tile-image" alt="" src="images/assets/route96-feature.png" />
+	            <img class="tile-image" alt="" src="<?php bloginfo('template_directory'); ?>/img/assets/route96-feature.png" />
 	            <h3 class="tile-title">Route 96</h3>
 	            <p>Aged 14 - 19 year old? Then come along on a friday.</p>
 	            <a class="btn btn-primary btn-large btn-block" href="#">Find out more</a>
@@ -88,7 +88,7 @@ get_header();
 	
 	        <div class="span3">
 	          <div class="tile">
-	            <img class="tile-image big-illustration" alt="" src="images/illustrations/gift.png" />
+	            <img class="tile-image big-illustration" alt="" src="<?php bloginfo('template_directory'); ?>/img/illustrations/gift.png" />
 	            <h3 class="tile-title">Donate</h3>
 	            <p>Want to find out more about giving to LCF</p>
 	            <a class="btn btn-primary btn-large btn-block" href="#">Giving</a>
