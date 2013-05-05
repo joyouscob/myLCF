@@ -5248,6 +5248,10 @@ a.badge:focus {
 .hero-unit li {
   line-height: 30px;
 }
+body {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
 .pull-right {
   float: right;
 }
@@ -6109,6 +6113,13 @@ a.badge:focus {
   .modal.fade.in {
     top: 20px;
   }
+  .lcf-logo {
+    text-align: center;
+  }
+  body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
 }
 @media (max-width: 480px) {
   .nav-collapse {
@@ -6163,7 +6174,8 @@ a.badge:focus {
 }
 @media (max-width: 979px) {
   body {
-    padding-top: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
   .navbar-fixed-top,
   .navbar-fixed-bottom {

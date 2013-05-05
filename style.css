@@ -29,8 +29,8 @@ This site uses a mixture of LESS and SASS styles. The basic styles are based on 
 /* Override default bootstrap styles with Flat UI */
 @import 'CSS/flat-ui.css';
 
-/* Custom Styles */
+/* Custom Styles
 body {
 	padding-top: 60px;
 	padding-bottom: 40px;
-}
+} */
