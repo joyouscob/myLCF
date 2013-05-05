@@ -12,6 +12,8 @@
   .nav
     // First level nav
     > li
+      &:first-child
+        margin-left: 20px
       &:hover
         > ul
           top: 100%
@@ -21,7 +23,7 @@
         padding-top: 13px
         top: 80%
         // IE treats transparent background as not hoverable area. Let's fix that.
-        background-color: #{$inverse}\9
+        background-color: none
         // Dropdown triangle ear
         +dropdown-arrow
 
@@ -54,9 +56,6 @@
           visibility: visible
           // Show on hover
           display: block\9
-    
-    li:first-child
-      margin-left: 20px
 
     // Sub menu
     ul
@@ -84,7 +83,7 @@
 
       // Sub menu item
       li
-        background-color: $base
+        background-color: $amethyst
         padding: 0 3px 3px
 
         &:first-child
@@ -96,7 +95,7 @@
 
         &.active
           > a, > a:hover
-            background-color: $firm
+            background-color: $wisteria
             color: $inverse
 
       // Sub menu link
@@ -108,7 +107,7 @@
         padding: 6px 9px
         text-decoration: none
         &:hover
-          background-color: $firm
+          background-color: $wisteria
 
 .navbar-inner
   border: none
