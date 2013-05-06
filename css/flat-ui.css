@@ -2475,6 +2475,9 @@ li.widget {
   border-radius: 0;
   margin-bottom: 0; }
 
+.content {
+  padding-bottom: 100px; }
+
 .ptn, .pvn, .pan {
   padding-top: 0; }
 
