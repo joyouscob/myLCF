@@ -3,7 +3,7 @@
  * The template for displaying all pages.
  *
  * Template Name: Page - No Sidebar
- * Description: Page template with a content container and right sidebar
+ * Description: Page template with only a content container and no sidebar
  *
  * @package WordPress
  * @subpackage myLCF
