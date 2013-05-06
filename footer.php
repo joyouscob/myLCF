@@ -9,20 +9,17 @@
 		  			<div class="span5">
 		  				<div class="footer-banner">
 		  					<h3 class="footer-title">Other Information</h3>
-		  					<ul>
-		  						<li><a href="#">News</a></li>
-		  						<li><a href="#">Our Building</a></li>
-		  						<li><a href="#">Planning Center</a></li>
-		  						<li><a href="#">Leadership</a></li>
-		  						<li><a href="#">Podcast</a></li>
-		  					</ul>
+	  						<?php
+					           /** Loading WordPress Custom Menu  **/
+					           wp_nav_menu( array(
+					              'theme_location' => 'footer_menu',
+					          ) ); ?>
 		  					This is some other footer text with a <a href="#">Hyperlink</a>
 		  				</div>
 		  			</div>
 		  		</div>	
 	  		</div>
 	  	</footer>
-	
 
     <!-- Le javascript
     ================================================== -->
