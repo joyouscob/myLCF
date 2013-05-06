@@ -14,6 +14,11 @@
     padding-top: 20px;
     padding-bottom: 20px;
   }
+  
+  // Fix menu item on dropdown navbar
+  .navbar .nav > li:first-child {
+  	  margin-left: 0px;
+  }
   // Unfix the navbars
   .navbar-fixed-top,
   .navbar-fixed-bottom {
@@ -85,17 +90,17 @@
   .nav-collapse .nav > li > a:focus,
   .nav-collapse .dropdown-menu a:hover,
   .nav-collapse .dropdown-menu a:focus {
-    background-color: @navbarBackground;
+    background-color: #8E44AD;
   }
   .navbar-inverse .nav-collapse .nav > li > a,
   .navbar-inverse .nav-collapse .dropdown-menu a {
-    color: @navbarInverseLinkColor;
+    color: #fff;
   }
   .navbar-inverse .nav-collapse .nav > li > a:hover,
   .navbar-inverse .nav-collapse .nav > li > a:focus,
   .navbar-inverse .nav-collapse .dropdown-menu a:hover,
   .navbar-inverse .nav-collapse .dropdown-menu a:focus {
-    background-color: @navbarInverseBackground;
+    background-color: #8E44AD;
   }
   // Buttons in the navbar
   .nav-collapse.in .btn-group {
