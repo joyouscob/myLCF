@@ -2454,6 +2454,9 @@ body.vjs-full-window {
 .feature-inner {
   padding: 10px; }
 
+li.widget {
+  list-style: none; }
+
 .ptn, .pvn, .pan {
   padding-top: 0; }
 
