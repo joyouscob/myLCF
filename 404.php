@@ -12,10 +12,11 @@ get_header();
 
 <div class="row">
 	<div class="span12">
-		<div style="text-align: center;">
-			<h1 style="position: relative; left: 20px;">404 Error: Page not found</h1>
-			<h3 style="position: relative; right: 40px;">It looks like the page you wanted has gone...</h3>
-			<h2 style="position: relative; left: 10px;">Maybe you could goto the homepage and try again</h2>
+		<div style="padding: 60px 0 60px 0; text-align: center;">
+			<h1 style="font-size: 72pt; padding-bottom: 20px; line-height: normal;">Oh no! 404 Error</h1>
+			<h3 style="position: relative; right: 0;">It looks like the page you wanted has gone...</h3>
+			<h3 style="position: relative; left: 0;">Maybe you could go to the homepage and try again</h3>
+		<div class="clear"></div>
 		</div>
 	</div>
 </div>
