@@ -17,17 +17,8 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 This site uses a mixture of LESS and SASS styles. The basic styles are based on LESS for botstrap, but these are over-ridden by the flat-ui styles which are compiled from SASS
 
-////////   IMPORTANT!  Make custom edits/changes in the less/bswp-custom.less file
+////////   IMPORTANT!  Make custom edits/changes in the less/custom.less file
 ////////   to safely retain the ability to update the less files with future
-////////   versions of Bootstrap or BootstrapWP
+////////   versions of Bootstrap or flat ui
 
 -------------------------------------------------- */
-
-/* Import the myLCF stylesheet */
-@import 'CSS/myLCF.css';
-
-/* Override default bootstrap styles with Flat UI */
-@import 'CSS/flat-ui.css';
-
-/* Import the bootstrap ersponsive files - this must come after flatui to ensure @media queries work correctly */
-@import 'CSS/responsive-lcf.css';

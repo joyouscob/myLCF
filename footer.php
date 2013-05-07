@@ -22,11 +22,7 @@
 	  		</div>
 	  	</footer>
 
-    <!-- Le javascript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="<?php bloginfo('template_directory'); ?>/js/jquery-1.8.2.min.js"></script>
-    <script src="<?php bloginfo('template_directory'); ?>/js/bootstrap.min.js"></script>  
+    <?php wp_footer(); ?>
        
     <script>
 	function fixHeight() {

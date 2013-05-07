@@ -26,6 +26,27 @@ register_sidebar(array(
   'after_title' => '</h3>'
 ));
 
+################################################################################
+// Loading All CSS Stylesheets
+################################################################################
+  function mylcf_css_loader() {
+    wp_enqueue_style('mylcf', get_template_directory_uri().'/css/mylcf.css', false ,'.01', 'all' );
+    wp_enqueue_style('flatui', get_template_directory_uri().'/css/flat-ui.css', false ,'0.1', 'all' );
+    wp_enqueue_style('responsive', get_template_directory_uri().'/css/responsive-lcf.css', false ,'0.1', 'all' );
+    wp_enqueue_style('prettify', get_template_directory_uri().'/js/google-code-prettify/prettify.css', false ,'1.0', 'all' );
+  }
+add_action('wp_enqueue_scripts', 'mylcf_css_loader');
+
+################################################################################
+// Loading all JS Script Files.  Remove any files you are not using!
+################################################################################
+  function mylcf_js_loader() {
+       wp_enqueue_script('jquery', get_template_directory_uri().'/js/jquery-1.8.2.min.js', array('jquery'),'1.8.2', true );
+       wp_enqueue_script('bootstrap', get_template_directory_uri().'/js/bootstrap.min.js', array('jquery'),'0.1', true );
+       wp_enqueue_script('prettify', get_template_directory_uri().'/js/google-code-prettify/prettify.js', array('jquery'),'0.90', true );
+  }
+add_action('wp_enqueue_scripts', 'mylcf_js_loader');
+
 /*
 | -------------------------------------------------------------------
 | Adding Breadcrumbs - using code from bootstrapwp
