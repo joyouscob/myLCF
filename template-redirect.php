@@ -3,7 +3,7 @@
 Template Name: Custom Redirect Template
 */
 ?>
-
+<br><br>
 <div class="row">
 	<div class="span12">
 		<p style="text-align: center;"><img class="size-medium wp-image-821 aligncenter" alt="amethyst_large" src="http://localhost/~james/gantry/wp-content/uploads/2013/05/amethyst_large-300x300.png" width="300" height="300" /></p>
@@ -13,3 +13,4 @@ Template Name: Custom Redirect Template
 		<h2 style="text-align: center;"><a title="Louth Christian Fellowship" href="http://www.louthchristianfellowship.co.uk">louthchristianfellowship.co.uk</a></h2>
 	</div>
 </div>
+<br><br>

@@ -1,4 +1,4 @@
-<div class="container palette-white">
+<header class="container palette-white">
 		<div class="row demo-row">
 			<div class="span6">
 				<div class="lcf-logo"><img src="<?php bloginfo('template_directory'); ?>/assets/img/logo.png"></div>
@@ -26,18 +26,24 @@
 						        <span class="icon-bar"></span>
 						        <span class="icon-bar"></span>
 						      </a>
-							    <?php
-						           /** Loading WordPress Custom Menu  **/
-						           wp_nav_menu( array(
-						              'menu'            => 'primary_navigation',
-						              'container_class' => 'nav-collapse',
-						              'menu_class'      => 'nav',
-						              'fallback_cb'     => '',
-						              'menu_id' => 'main-menu',
-						          ) ); ?>						    
+						      
+						      <div class="navtext hidden-desktop">Click for menu...</div>
+						      
+						      	<div class="nav-collapse collapse">
+						      		
+								    <?php
+							           /** Loading WordPress Custom Menu  **/
+							           wp_nav_menu( array(
+							              'menu'            => 'primary_navigation',
+							              'container_class' => 'nav-collapse collapse',
+							              'menu_class'      => 'nav',
+							              'fallback_cb'     => '',
+							              'menu_id' => 'main-menu',
+							          ) ); ?>
+						      	</div>					    
 						</div>
 					</div>
 				</div>
 			</div>
 		</div> <!-- End navigation -->
-</div>
+</header>

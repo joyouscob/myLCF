@@ -518,6 +518,12 @@ h6 {
     font-weight: 700;
     padding-bottom: 16px;
     padding-top: 15px; }
+  .navbar .navtext {
+    color: white;
+    text-align: right;
+    padding-top: 8px;
+    font-style: italic;
+    padding-right: 75px; }
   .navbar .nav > li:first-child {
     margin-left: 20px; }
   .navbar .nav > li:hover > ul {
@@ -526,6 +532,17 @@ h6 {
     padding-top: 13px;
     top: 80%;
     background-color: none; }
+    .navbar .nav > li > ul:before {
+      content: "";
+      border-style: solid;
+      border-width: 0 9px 9px 9px;
+      border-color: transparent transparent #9b59b6 transparent;
+      height: 0px;
+      position: absolute;
+      left: 15px;
+      top: 5px;
+      width: 0px;
+      -webkit-transform: rotate(360deg); }
     .navbar .nav > li > ul li:hover ul {
       opacity: 1;
       -webkit-transform: scale(1, 1);
@@ -1843,6 +1860,10 @@ footer {
   footer p {
     font-size: 15px;
     line-height: 20px; }
+
+.footer-row {
+  background-color: #f0f0f0;
+  margin-right: -20px; }
 
 .footer-title {
   margin: 0 0 22px;

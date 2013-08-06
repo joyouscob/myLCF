@@ -7,8 +7,8 @@
 
   // Padding to set content in a bit
   body {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
   // Negative indent the now static "fixed" navbar
   .navbar-fixed-top,
@@ -20,6 +20,32 @@
   // Remove padding on container given explicit padding set on body
   .container-fluid {
     padding: 0;
+  }
+  
+  .wrap {
+	background: #FFFFFF;
+	-moz-box-shadow:    none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	}
+	
+  footer {
+	  margin-left: -20px;
+	  margin-right: 0;
+  }
+  
+  footer > .footer-row {
+	  margin-left: 20px;
+  }
+
+  footer > .footer-row > .footer-left {
+	  padding-right: 20px;
+  }
+  
+  footer > .footer-row > .footer-right {
+	  margin-left: -20px;
+	  margin-right: 0;
+	  width: auto;
   }
 
   // TYPOGRAPHY
@@ -118,8 +144,8 @@
   
   // Fix the top and bottom margins
   body {
-	  padding-top: 20px;
-	  padding-bottom: 20px;
+	  padding-top: 0;
+	  padding-bottom: 0;
   }
   
   // Add padding to large tile items
