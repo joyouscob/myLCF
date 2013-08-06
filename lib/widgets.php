@@ -13,14 +13,25 @@ function roots_widgets_init() {
     'after_title'   => '</h3>',
   ));
 
-  register_sidebar(array(
+  /*register_sidebar(array(
     'name'          => __('Footer', 'roots'),
     'id'            => 'sidebar-footer',
     'before_widget' => '<section class="widget %1$s %2$s"><div class="widget-inner">',
     'after_widget'  => '</div></section>',
     'before_title'  => '<h3>',
     'after_title'   => '</h3>',
-  ));
+  ));*/
+  
+  // Register sidebar widget areas
+register_sidebar(array(
+  'name' => __( 'Footer Widget Area', 'roots' ),
+  'id' => 'footer-widget',
+  'description' => __( 'Widgets in this area will appear in the left of the footer area.' ),
+  'before-widget' => '',
+  'after-widget' => '',
+  'before_title' => '<h3 class="footer-title">',
+  'after_title' => '</h3>'
+));
 
   // Widgets
   register_widget('Roots_Vcard_Widget');
