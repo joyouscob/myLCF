@@ -14,7 +14,7 @@
 	           wp_nav_menu( array(
 	              'theme_location' => 'footer_menu',
 	          ) ); ?>
-				This is some other footer text with a <a href="#">Hyperlink</a>
+				<!--This is some other footer text with a <a href="#">Hyperlink</a>-->
 			</div>
 		</div>
 	</div>	
