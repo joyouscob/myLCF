@@ -1,0 +1,24 @@
+/*
+Theme Name: myLCF
+Theme URI: http://www.perspectivedesign.co.uk
+Author: James Cartwright
+Author URI: http://www.perspectivedesign.co.uk
+Description: A semantic HTML/CSS theme for WordPress based on Twitter Bootstrap and Flat UI
+Version: .01
+=======
+License: GNU General Public License
+License URI: license.txt
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/********************************************************
+
+This site uses a mixture of LESS and SASS styles. The basic styles are based on LESS for botstrap, but these are over-ridden by the flat-ui styles which are compiled from SASS
+
+////////   IMPORTANT!  Make custom edits/changes in the less/custom.less file
+////////   to safely retain the ability to update the less files with future
+////////   versions of Bootstrap or flat ui
+
+-------------------------------------------------- */
