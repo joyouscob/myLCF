@@ -1874,7 +1874,8 @@ footer {
   margin-top: 26px; }
   .footer-brand img {
     width: 50px;
-    margin-right: 10px; }
+    margin-right: 10px;
+    margin-bottom: 10px; }
 
 .footer-banner {
   background-color: #9b59b6;

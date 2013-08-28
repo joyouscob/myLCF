@@ -38,15 +38,6 @@ function roots_widgets_init() {
   // Register Homepage Widget Areas
   
   register_sidebar(array(
-    'name'          => __('Homepage Slider Area', 'roots'),
-    'id'            => 'homepage-slider',
-    'before_widget' => '',
-    'after_widget'  => '',
-    'before_title'  => '',
-    'after_title'   => '',
-  ));
-  
-  register_sidebar(array(
     'name'          => __('Homepage Area 1', 'roots'),
     'id'            => 'homepage-area1',
     'before_widget' => '<div class="span4 large-tile palette-amethyst">',
@@ -57,7 +48,7 @@ function roots_widgets_init() {
   
   register_sidebar(array(
     'name'          => __('Homepage Area 2', 'roots'),
-    'id'            => 'homepage-area3',
+    'id'            => 'homepage-area2',
     'before_widget' => '<div class="span4 large-tile palette-amethyst">',
     'after_widget'  => '</div></div>',
     'before_title'  => '<div class="large-tile-header"><h2><span class="fui-bubble-24 feature-icon"></span>',
@@ -66,7 +57,7 @@ function roots_widgets_init() {
   
   register_sidebar(array(
     'name'          => __('Homepage Area 3', 'roots'),
-    'id'            => 'homepage-area2',
+    'id'            => 'homepage-area3',
     'before_widget' => '<div class="span4 large-tile palette-amethyst">',
     'after_widget'  => '</div></div>',
     'before_title'  => '<div class="large-tile-header"><h2><span class="fui-bubble-24 feature-icon"></span>',
@@ -79,7 +70,7 @@ function roots_widgets_init() {
     'id'            => 'homepage-cta1',
     'before_widget' => '<div class="span3"><div class="tile">',
     'after_widget'  => '</div></div>',
-    'before_title'  => '<img class="tile-image big-illustration" alt="" src="/~james/gantry/assets/img/mylcf-feature.png" /><h3 class="tile-title">',
+    'before_title'  => '<img class="tile-image big-illustration" alt="" src="/assets/img/mylcf-feature.png" /><h3 class="tile-title">',
     'after_title'   => '</h3>',
   ));
   
@@ -88,7 +79,7 @@ function roots_widgets_init() {
     'id'            => 'homepage-cta2',
     'before_widget' => '<div class="span3"><div class="tile tile-hot">',
     'after_widget'  => '</div></div>',
-    'before_title'  => '<img class="tile-image big-illustration" alt="" src="/~james/gantry/assets/img/twitter-feature.png" /><h3 class="tile-title">',
+    'before_title'  => '<img class="tile-image big-illustration" alt="" src="/assets/img/twitter-feature.png" /><h3 class="tile-title">',
     'after_title'   => '</h3>',
   ));
   
@@ -97,7 +88,7 @@ function roots_widgets_init() {
     'id'            => 'homepage-cta3',
     'before_widget' => '<div class="span3"><div class="tile">',
     'after_widget'  => '</div></div>',
-    'before_title'  => '<img class="tile-image big-illustration" alt="" src="/~james/gantry/assets/img/route96-feature.png" /><h3 class="tile-title">',
+    'before_title'  => '<img class="tile-image big-illustration" alt="" src="/assets/img/route96-feature.png" /><h3 class="tile-title">',
     'after_title'   => '</h3>',
   ));
   
@@ -106,7 +97,7 @@ function roots_widgets_init() {
     'id'            => 'homepage-cta4',
     'before_widget' => '<div class="span3"><div class="tile">',
     'after_widget'  => '</div></div>',
-    'before_title'  => '<img class="tile-image big-illustration" alt="" src="/~james/gantry/assets/img/illustrations/gift.png" /><h3 class="tile-title">',
+    'before_title'  => '<img class="tile-image big-illustration" alt="" src="/assets/img/illustrations/gift.png" /><h3 class="tile-title">',
     'after_title'   => '</h3>',
   ));
 

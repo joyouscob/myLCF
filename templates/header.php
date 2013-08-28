@@ -1,16 +1,16 @@
 <header class="container palette-white">
 		<div class="row demo-row">
 			<div class="span6">
-				<div class="lcf-logo"><img src="<?php bloginfo('template_directory'); ?>/assets/img/logo.png"></div>
+				<div class="lcf-logo"><a href="http://www.mylcf.co.uk"><img src="<?php bloginfo('template_directory'); ?>/assets/img/logo.png"></a></div>
 			</div>
 			<div class="span6">
 				<div class="social hidden-phone">
 					<ul>
 					<li><a href="https://twitter.com/mylcf"><img src="<?php bloginfo('template_directory'); ?>/assets/img/twitter.png"></a></li>
 					<li><a href="https://plus.google.com/105194755344349207127/about?gl=uk&hl=en"><img src="<?php bloginfo('template_directory'); ?>/assets/img/map.png"></a></li>
-					<li><a href="#"><img src="<?php bloginfo('template_directory'); ?>/assets/img/podcast.png"></a></li>
+					<li><a href="/podcast"><img src="<?php bloginfo('template_directory'); ?>/assets/img/podcast.png"></a></li>
 					<li><a href="http://instagram.com/lcfchurch/"><img src="<?php bloginfo('template_directory'); ?>/assets/img/instagram.png"></a></li>
-					<li><a href="#"><img src="<?php bloginfo('template_directory'); ?>/assets/img/facebook.png"></a></li>
+					<!--<li><a href="#"><img src="<?php bloginfo('template_directory'); ?>/assets/img/facebook.png"></a></li>-->
 					</ul>
 				</div>
 			</div>
