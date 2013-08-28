@@ -2,7 +2,9 @@
 /**
  * Register sidebars and widgets
  */
+
 function roots_widgets_init() {
+   
   // Sidebars
   register_sidebar(array(
     'name'          => __('Primary Sidebar', 'roots'),
@@ -23,15 +25,90 @@ function roots_widgets_init() {
   ));*/
   
   // Register sidebar widget areas
-register_sidebar(array(
-  'name' => __( 'Footer Widget Area', 'roots' ),
-  'id' => 'footer-widget',
-  'description' => __( 'Widgets in this area will appear in the left of the footer area.' ),
-  'before-widget' => '',
-  'after-widget' => '',
-  'before_title' => '<h3 class="footer-title">',
-  'after_title' => '</h3>'
-));
+  register_sidebar(array(
+  	'name' => __( 'Footer Widget Area', 'roots' ),
+  	'id' => 'footer-widget',
+  	'description' => __( 'Widgets in this area will appear in the left of the footer area.' ),
+  	'before-widget' => '',
+  	'after-widget' => '',
+  	'before_title' => '<h3 class="footer-title">',
+  	'after_title' => '</h3>'
+  ));
+
+  // Register Homepage Widget Areas
+  
+  register_sidebar(array(
+    'name'          => __('Homepage Slider Area', 'roots'),
+    'id'            => 'homepage-slider',
+    'before_widget' => '',
+    'after_widget'  => '',
+    'before_title'  => '',
+    'after_title'   => '',
+  ));
+  
+  register_sidebar(array(
+    'name'          => __('Homepage Area 1', 'roots'),
+    'id'            => 'homepage-area1',
+    'before_widget' => '<div class="span4 large-tile palette-amethyst">',
+    'after_widget'  => '</div></div>',
+    'before_title'  => '<div class="large-tile-header"><h2><span class="fui-bubble-24 feature-icon"></span>',
+    'after_title'   => '</h2></div><div class="feature-inner">',
+  ));
+  
+  register_sidebar(array(
+    'name'          => __('Homepage Area 2', 'roots'),
+    'id'            => 'homepage-area3',
+    'before_widget' => '<div class="span4 large-tile palette-amethyst">',
+    'after_widget'  => '</div></div>',
+    'before_title'  => '<div class="large-tile-header"><h2><span class="fui-bubble-24 feature-icon"></span>',
+    'after_title'   => '</h2></div><div class="feature-inner">',
+  ));
+  
+  register_sidebar(array(
+    'name'          => __('Homepage Area 3', 'roots'),
+    'id'            => 'homepage-area2',
+    'before_widget' => '<div class="span4 large-tile palette-amethyst">',
+    'after_widget'  => '</div></div>',
+    'before_title'  => '<div class="large-tile-header"><h2><span class="fui-bubble-24 feature-icon"></span>',
+    'after_title'   => '</h2></div><div class="feature-inner">',
+  ));
+  
+  // Register Homepage CTA Widgets
+  register_sidebar(array(
+    'name'          => __('Homepage Call 1', 'roots'),
+    'id'            => 'homepage-cta1',
+    'before_widget' => '<div class="span3"><div class="tile">',
+    'after_widget'  => '</div></div>',
+    'before_title'  => '<img class="tile-image big-illustration" alt="" src="/~james/gantry/assets/img/mylcf-feature.png" /><h3 class="tile-title">',
+    'after_title'   => '</h3>',
+  ));
+  
+  register_sidebar(array(
+    'name'          => __('Homepage Call 2', 'roots'),
+    'id'            => 'homepage-cta2',
+    'before_widget' => '<div class="span3"><div class="tile tile-hot">',
+    'after_widget'  => '</div></div>',
+    'before_title'  => '<img class="tile-image big-illustration" alt="" src="/~james/gantry/assets/img/twitter-feature.png" /><h3 class="tile-title">',
+    'after_title'   => '</h3>',
+  ));
+  
+  register_sidebar(array(
+    'name'          => __('Homepage Call 3', 'roots'),
+    'id'            => 'homepage-cta3',
+    'before_widget' => '<div class="span3"><div class="tile">',
+    'after_widget'  => '</div></div>',
+    'before_title'  => '<img class="tile-image big-illustration" alt="" src="/~james/gantry/assets/img/route96-feature.png" /><h3 class="tile-title">',
+    'after_title'   => '</h3>',
+  ));
+  
+  register_sidebar(array(
+    'name'          => __('Homepage Call 4', 'roots'),
+    'id'            => 'homepage-cta4',
+    'before_widget' => '<div class="span3"><div class="tile">',
+    'after_widget'  => '</div></div>',
+    'before_title'  => '<img class="tile-image big-illustration" alt="" src="/~james/gantry/assets/img/illustrations/gift.png" /><h3 class="tile-title">',
+    'after_title'   => '</h3>',
+  ));
 
   // Widgets
   register_widget('Roots_Vcard_Widget');
