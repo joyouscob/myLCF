@@ -51,7 +51,7 @@ function roots_widgets_init() {
     'id'            => 'homepage-area2',
     'before_widget' => '<div class="span4 large-tile palette-amethyst">',
     'after_widget'  => '</div></div>',
-    'before_title'  => '<div class="large-tile-header"><h2><span class="fui-bubble-24 feature-icon"></span>',
+    'before_title'  => '<div class="large-tile-header"><h2><span class="fui-calendar-24 feature-icon"></span>',
     'after_title'   => '</h2></div><div class="feature-inner">',
   ));
   
@@ -60,7 +60,7 @@ function roots_widgets_init() {
     'id'            => 'homepage-area3',
     'before_widget' => '<div class="span4 large-tile palette-amethyst">',
     'after_widget'  => '</div></div>',
-    'before_title'  => '<div class="large-tile-header"><h2><span class="fui-bubble-24 feature-icon"></span>',
+    'before_title'  => '<div class="large-tile-header"><h2><span class="fui-volume-24 feature-icon"></span>',
     'after_title'   => '</h2></div><div class="feature-inner">',
   ));
   
