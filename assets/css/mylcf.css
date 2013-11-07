@@ -759,10 +759,12 @@ dd {
   margin-left: 180px;
 }
 hr {
-  margin: 20px 0;
   border: 0;
-  border-top: 1px solid #eeeeee;
-  border-bottom: 1px solid #ffffff;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  background-image: -ms-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 abbr[title],
 abbr[data-original-title] {
@@ -5195,6 +5197,37 @@ body {
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 60px;
+}
+.tweets {
+  list-style-type: none;
+  margin-left: 0;
+}
+.tweets li {
+  padding-bottom: 20px;
+}
+.tweets a {
+  color: #ffffff;
+  font-weight: bold;
+}
+.tweets a:hover {
+  color: #8e44ad;
+  text-decoration: none;
+}
+.time-ago a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.time-ago a:hover {
+  color: #8e44ad;
+  text-decoration: none;
+}
+.follow-link a {
+  color: #ffffff;
+  font-weight: bold;
+}
+.follow-link a:hover {
+  color: #8e44ad;
+  text-decoration: none;
 }
 .pull-right {
   float: right;

@@ -1696,6 +1696,9 @@ textarea,
 .palette-wisteria {
   background-color: #8e44ad; }
 
+.palette-lightgray {
+  background-color: #f2f2f2; }
+
 .palette-carrot {
   background-color: #e67e22; }
 
@@ -2448,10 +2451,18 @@ body.vjs-full-window {
   padding: inherit;
   position: relative;
   text-align: center;
-  color: white; }
+  color: #595959;
+  background: #f2f2f2; }
+
+.large-tile a {
+  color: #8e44ad; }
+
+.large-tile a:hover {
+  color: #9b59b6; }
 
 .large-tile-header {
-  background: #8e44ad;
+  background: #f2f2f2;
+  color: #8e44ad;
   position: relative;
   top: -10px;
   border-radius: 6px 6px 0 0; }

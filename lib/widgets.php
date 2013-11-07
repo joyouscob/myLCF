@@ -40,7 +40,7 @@ function roots_widgets_init() {
   register_sidebar(array(
     'name'          => __('Homepage Area 1', 'roots'),
     'id'            => 'homepage-area1',
-    'before_widget' => '<div class="span4 large-tile palette-amethyst">',
+    'before_widget' => '<div class="span4 large-tile palette-lightgray">',
     'after_widget'  => '</div></div>',
     'before_title'  => '<div class="large-tile-header"><h2><span class="fui-bubble-24 feature-icon"></span>',
     'after_title'   => '</h2></div><div class="feature-inner">',
@@ -49,7 +49,7 @@ function roots_widgets_init() {
   register_sidebar(array(
     'name'          => __('Homepage Area 2', 'roots'),
     'id'            => 'homepage-area2',
-    'before_widget' => '<div class="span4 large-tile palette-amethyst">',
+    'before_widget' => '<div class="span4 large-tile palette-lightgray">',
     'after_widget'  => '</div></div>',
     'before_title'  => '<div class="large-tile-header"><h2><span class="fui-calendar-24 feature-icon"></span>',
     'after_title'   => '</h2></div><div class="feature-inner">',
@@ -58,7 +58,7 @@ function roots_widgets_init() {
   register_sidebar(array(
     'name'          => __('Homepage Area 3', 'roots'),
     'id'            => 'homepage-area3',
-    'before_widget' => '<div class="span4 large-tile palette-amethyst">',
+    'before_widget' => '<div class="span4 large-tile palette-lightgray">',
     'after_widget'  => '</div></div>',
     'before_title'  => '<div class="large-tile-header"><h2><span class="fui-volume-24 feature-icon"></span>',
     'after_title'   => '</h2></div><div class="feature-inner">',
